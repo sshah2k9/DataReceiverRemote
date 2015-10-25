@@ -12,7 +12,6 @@ public class ReceiverServer {
 	private static Socket socket;
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		ServerSocket serverSocket = null;
 		try {
 			if (args == null || args.length < 2) {
