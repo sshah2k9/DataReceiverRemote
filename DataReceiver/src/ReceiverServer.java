@@ -16,7 +16,7 @@ public class ReceiverServer {
 		ServerSocket serverSocket = null;
 		try {
 			if (args == null || args.length < 2) {
-				System.out.println("No Port Number/Output File provided");
+				System.out.println("No Port Number/Output File provided.");
 				System.exit(0);
 			}
 			int port = Integer.parseInt(args[0]);
